@@ -19,17 +19,21 @@ This project is an assistive communication system that bridges the gap between *
 - **Backend:** Python, Django
 - **Computer Vision:** OpenCV, MediaPipe
 - **Machine Learning:** TensorFlow
-- **Other Libraries:** NumPy, pyttsx3 (TTS), SpeechRecognition
+- **Other Libraries:** NumPy, SpeechRecognition
 
+---
+# Requirements
+* mediapipe 0.8.1
+* OpenCV 3.4.2 or Later
+* Tensorflow 2.3.0 or Later<br>tf-nightly 2.5.0.dev or later (Only when creating a TFLite for an LSTM model)
+* scikit-learn 0.23.2 or Later (Only if you want to display the confusion matrix) 
+* matplotlib 3.3.2 or Later (Only if you want to display the confusion matrix)
 ---
 
 ## ⚙️ Features
 
 - 🖐️ **Sign Language Detection:**  
   Detects hand signs using webcam and classifies them using a trained TensorFlow model and MediaPipe hand tracking.
-
-- 🔊 **Sign-to-Speech Converter:**  
-  Recognized signs are converted into text and then spoken aloud using the `pyttsx3` library.
 
 - 🗣️ **Speech-to-Text Interface:**  
   Voice input from the second user is transcribed into text using the SpeechRecognition library and displayed to the deaf/mute user.
@@ -45,11 +49,11 @@ This project is an assistive communication system that bridges the gap between *
    - MediaPipe detects hand landmarks.
    - TensorFlow model classifies gestures into characters or words.
 
-2. **Text/Speech Output**
-   - Recognized gestures are displayed as text and optionally voiced using TTS.
+2. **Text Output**
+   - Recognized gestures are displayed as text .
 
 3. **Voice Input**
-   - SpeechRecognition captures voice input and converts it into readable text.
+   - SpeechRecognition captures voice input and text input converts it into readable text.
 
 4. **Communication Display**
    - A chat-like interface shows the entire interaction in real-time.
@@ -66,8 +70,8 @@ This project is an assistive communication system that bridges the gap between *
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/two-way-deaf-communication.git
-cd two-way-deaf-communication
+git clone https://github.com/Kushalbabu10/Two_way_communication_for_Deaf_people.git
+cd Two_way_communication_for_Deaf_people
 
 # Create a virtual environment and activate it
 python -m venv venv
