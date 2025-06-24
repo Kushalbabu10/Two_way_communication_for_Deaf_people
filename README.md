@@ -62,7 +62,14 @@ This project is an assistive communication system that bridges the gap between *
 
 ## 📸 Screenshots
 
-(Add screenshots of the UI, webcam feed, chat window, etc.)
+### 🔹 Welcome page
+![Welcome page](/Welcome page.png)
+
+### 🔹 Gesture to Text/Speech
+![Sign to Text](screenshots/sign_to_text.gif)
+
+### 🔹 Speech to Text
+![Speech to Text](screenshots/speech_to_text.png)
 
 ---
 
