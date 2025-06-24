@@ -63,13 +63,25 @@ This project is an assistive communication system that bridges the gap between *
 ## 📸 Screenshots
 
 ### 🔹 Welcome page
-![Welcome page](/Welcome page.png)
+![Welcome page](Welcome page.png)
 
-### 🔹 Gesture to Text/Speech
-![Sign to Text](screenshots/sign_to_text.gif)
+### 🔹 Login Page
+![Login Page](Login Page.png)
 
-### 🔹 Speech to Text
-![Speech to Text](screenshots/speech_to_text.png)
+### 🔹 Sign Up Page
+![Sign Up Page](Sign Up Page.png)
+
+### 🔹 Deaf to normal window
+![Deaf to normal window](Deaf to normal window.png)
+
+### 🔹 Hand gesture window
+![Hand gesture window](Hand gesture window.png)
+
+### 🔹 Labeled Animation
+![Labeled Animation](Labeled Animation.png)
+
+### 🔹 Trained Dataset
+![Trained Dataset](Trained Dataset.png)
 
 ---
 
